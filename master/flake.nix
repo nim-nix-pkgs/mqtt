@@ -11,7 +11,6 @@
   inputs.src-mqtt-master.ref   = "refs/heads/master";
   inputs.src-mqtt-master.owner = "barnybug";
   inputs.src-mqtt-master.repo  = "nim-mqtt";
-  inputs.src-mqtt-master.dir   = "";
   inputs.src-mqtt-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
